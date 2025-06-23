@@ -34,3 +34,6 @@ input[type=search]:focus{
   background-color: red;       
   opacity: 1;
 }
+.watch{
+  border: none;
+}
