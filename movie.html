@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/36dbd87385.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assests/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+   <nav class="navbar navbar-expand-lg">
+        <div class="container justify-content-between align-items-center">
+            <a href="#" class="navbar-brand d-inline-block justify-content-start">
+                <img src="assests/images/netflix_logo-removebg-preview.png" alt="" class="img-fluid d-inline-block align top" style="width: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" 
+            aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav " style="gap: 5px;">
+                    <li class="nav-item">
+                        <a href="#" class="btn movie-btn white-bg nav-link active" style="padding: 6px 25px; border-radius: 17px; font-size: 16px; background-color: transparent; color: white; border: none;">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn movie-btn nav-link" style="padding: 6px 25px; border-radius: 17px; font-size: 16px; background-color: transparent; color: white; border: none;">Tv Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn movie-btn nav-link" style="padding: 6px 25px; border-radius: 17px; font-size: 16px; background-color: transparent; color: white; border: none;">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn movie-btn nav-link" style="padding: 6px 25px; border-radius: 17px; font-size: 16px; background-color: transparent; color: white; border: none;">Animation</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-none d-lg-block justify-content-end justify-content-between ">
+                <div style="position: relative; display: inline-block; width: 250px;">
+                    <input type="search" placeholder="Search" style="width: 90%;text-align: center;font-size: 18px;border-radius: 10px;border: none;padding: 4px 4px ;background-color: #121212;color: white;outline: none;">
+                    <span style="position: absolute;left: 12px;top: 50%;transform: translateY(-50%);color: #aaa;pointer-events: none;">
+                        <i class="fa-solid fa-magnifying-glass fa-sm" style="color: white;"></i>
+                    </span>
+                </div>
+                <div style="display: inline;" class="justify-content-end">
+                    <a href=""><i class="fa-solid fa-bell fa-shake fa-2xl" style="color: #ffffff; margin-right: 25px;"></i></a>
+                    <a href="#"><i class="fa-solid fa-circle-user fa-2xl" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="d-flex" style="width: 100%;">
+            <div class="container my-3">
+                <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                        <button data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="position: relative; background-color: rgb(0, 0, 0); min-height: 23rem;;" data-bs-interval="2000">
+                            <img src="assests/images/dune.jpg" alt="" style="position: absolute; background-position: center; background-size: cover; bottom: 0; top: 0; left: 0; right: 0; opacity: 0.8; width: 100%; border-radius: 30px; object-fit: cover; height: 100%;">
+                            <div class="container d-none d-lg-block " style="position: absolute; left: 0; right: 0; padding: 23% 50px; top: 0;">
+                                <p class="h1" style="letter-spacing: 5px; color: white;">DUNE</p>
+                                <div class="d-flex justify-content-between align-items-center" style="margin-top: -20px;">
+                                    <p style="color: white; margin-bottom: -10px;">2021 Sci-f/Adventure . 2h 35m</p>
+                                    <a href="#" class="btn watch" style="padding: 10px; border-radius: 20px;background-color: #E50914;padding: 9px 30px; color: white;">Watch</a>
+                                </div>
+                            </div>
+
+                            <div class="container text-center text-md-start d-block d-lg-none"
+                                style="position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%);z-index: 2; padding: 0px 30px; padding-top: 20% !important;">
+
+                                <p class="fw-bold text-white mb-2"
+                                style="font-size: clamp(1.2rem, 6vw, 2.5rem); letter-spacing: 3px;">DUNE</p>
+                                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2" style="margin-top: -16px;">
+                                <p class="text-white mb-0"
+                                    style="font-size: clamp(0.8rem, 3.5vw, 1rem); margin-bottom: 0px;">
+                                    2021 · Sci-fi/Adventure · 2h 35m
+                                </p>
+                                <a href="#" class="btn watch px-4 py-2 rounded-pill"
+                                    style="font-size: clamp(0.75rem, 3vw, 1rem); background-color: #E50914; color: white;">Watch</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item" style="position: relative; background-color: rgb(0, 0, 0); min-height: 23rem;;" data-bs-interval="2000">
+                            <img src="assests/images/Boarders+cover.jpeg" alt="" style="position: absolute; background-position: center; background-size: cover; bottom: 0; top: 0; left: 0; right: 0; opacity: 0.8; width: 100%; border-radius: 30px; object-fit: cover; height: 100%;">
+                            <div class="container d-none d-lg-block " style="position: absolute; left: 0; right: 0; padding: 23% 50px; top: 0;">
+                                <p class="h1" style="letter-spacing: 5px; color: white;">BOARDERS</p>
+                                <div class="d-flex justify-content-between align-items-center" style="margin-top: -20px;">
+                                    <p style="color: white; margin-bottom: -10px;">2024 Comedy-Drama · ~45m per episode</p>
+                                    <a href="#" class="btn watch" style="padding: 10px; border-radius: 20px;background-color: #E50914;padding: 9px 30px; color: white;">Watch</a>
+                                </div>
+                            </div>
+
+                            <div class="container text-center text-md-start d-block d-lg-none"
+                                style="position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%);z-index: 2; padding: 0px 30px; padding-top: 20% !important;">
+
+                                <p class="fw-bold text-white mb-2"
+                                style="font-size: clamp(1.2rem, 6vw, 2.5rem); letter-spacing: 3px;">BOARDERS</p>
+                                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2" style="margin-top: -16px;">
+                                <p class="text-white mb-0"
+                                    style="font-size: clamp(0.8rem, 3.5vw, 1rem); margin-bottom: 0px;">
+                                    2024 Comedy-Drama · ~45m per episode
+                                </p>
+                                <a href="#" class="btn watch px-4 py-2 rounded-pill"
+                                    style="font-size: clamp(0.75rem, 3vw, 1rem); background-color: #E50914; color: white;">Watch</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item" style="position: relative; background-color: rgb(0, 0, 0); min-height: 23rem;;" data-bs-interval="2000">
+                            <img src="assests/images/horror.jpg" alt="" style="position: absolute; background-position: center; background-size: cover; bottom: 0; top: 0; left: 0; right: 0; opacity: 0.8; width: 100%; border-radius: 30px; object-fit: cover; height: 100%;">
+                            <div class="container d-none d-lg-block " style="position: absolute; left: 0; right: 0; padding: 23% 50px; top: 0;">
+                                <p class="h1" style="letter-spacing: 5px; color: white;"> A Classic Horror Story</p>
+                                <div class="d-flex justify-content-between align-items-center" style="margin-top: -20px;">
+                                    <p style="color: white; margin-bottom: -10px;">2021 Horror-Slasher- Mystery · 1h 35m</p>
+                                    <a href="#" class="btn watch" style="padding: 10px; border-radius: 20px;background-color: #E50914;padding: 9px 30px; color: white;">Watch</a>
+                                </div>
+                            </div>
+
+                            <div class="container text-center text-md-start d-block d-lg-none"
+                                style="position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%);z-index: 2; padding: 0px 30px; padding-top: 20% !important;">
+
+                                <p class="fw-bold text-white mb-2"
+                                style="font-size: clamp(1.2rem, 6vw, 2.5rem); letter-spacing: 3px;">A Classic Horror Story</p>
+                                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2" style="margin-top: -16px;">
+                                <p class="text-white mb-0"
+                                    style="font-size: clamp(0.8rem, 3.5vw, 1rem); margin-bottom: 0px;">
+                                    2021 Horror-Slasher- Mystery · 1h 35m
+                                </p>
+                                <a href="#" class="btn px-4 py-2 rounded-pill watch"
+                                    style="font-size: clamp(0.75rem, 3vw, 1rem); background-color: #E50914; color: white;">Watch</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section claiss="my-2" style="padding-top: 8px;">
+                    <div class="d-flex justify-content-between align-items-center" style="padding-left:5px; padding-right: 20px;">
+                        <p class="h3 m-0" style="color: white;">Recommended</p>
+                        <i class="fa-solid fa-sort fa-rotate-90 fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="container d-none d-lg-block">
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/john.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">John Wick 4</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/batman.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Batman</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2022</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/renfelid.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Renfield</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/scream.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Scream Vi</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/black adam.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Black Adam</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/creed.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Creed III</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/ginny.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Ginny & Georgia</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/money.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Money Heist</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2017</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/squid.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Squid Game</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/arrow.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Arrow</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2012</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container d-none d-md-block d-lg-none">
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/john.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">John Wick 4</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/batman.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Batman</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2022</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/renfelid.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Renfield</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/scream.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Scream Vi</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/creed.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Creed III</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/ginny.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: x-small !important;" class="h1 mb-0">Ginny & Georgia</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/money.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Money Heist</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2017</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/squid.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Squid Game</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container d-block d-md-none">
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/john.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">John Wick 4</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/batman.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Batman</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2022</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/renfelid.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Renfield</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/scream.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Scream Vi</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/creed.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Creed III</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/ginny.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: x-small !important;" class="h1 mb-0">Ginny & Georgia</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/money.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Money Heist</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2017</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/squid.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Squid Game</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section  style="padding-top: 8px;">
+                    <div class="d-flex justify-content-between align-items-center" style="padding-left:5px; padding-right: 20px;">
+                        <p class="h3 m-0" style="color: white;">Latest Movies</p>
+                        <i class="fa-solid fa-sort fa-rotate-90 fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="container d-none d-lg-block">
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/ghostbusters.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;" class="img-fluid">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Ghostbusters</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2016</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/encanto.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Encanto</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/moon_knight.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Moon knight</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2022</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/ted.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Ted</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2012</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/Spectre.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Spectre</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2015</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/lost bullet.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Lost Bullet</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2020</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/avatar-avatar-the-last-airbender-10869595-1874-2560.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Avatar</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2005</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/hobbit.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Hobbit</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2012</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/loki movie poster.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Loki</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/reacher-poster.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Reacher</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2022</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container d-none d-md-block d-lg-none">
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/ghostbusters.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Ghostbusters</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2016</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/encanto.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Encanto</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/moon_knight.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Moon knight</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2022</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/ted.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Ted</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2012</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/lost bullet.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Lost Bullet</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2020</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/avatar-avatar-the-last-airbender-10869595-1874-2560.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Avatar</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2005</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/hobbit.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Hobbit</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2012</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/loki movie poster.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Loki</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container d-block d-md-none">
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/ghostbusters.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Ghostbusters</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2016</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/encanto.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Encanto</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/moon_knight.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Moon knight</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2022</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/ted.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Ted</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2012</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/lost bullet.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Lost Bullet</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2020</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/avatar-avatar-the-last-airbender-10869595-1874-2560.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Avatar</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2005</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/hobbit.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Hobbit</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2012</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/loki movie poster.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Loki</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2021</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section  style="padding-top: 8px;" class="d-none d-md-block">
+                    <div class="d-flex justify-content-between align-items-center" style="padding-left:5px; padding-right: 20px;">
+                        <p class="h3 m-0" style="color: white;">Top Rated Movies</p>
+                        <i class="fa-solid fa-sort fa-rotate-90 fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="container d-none d-lg-block">
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/iron fist.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;" class="img-fluid">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Iron fist</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2017</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/agent carter.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Agent Carter</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2015</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/vampire.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Vampire daires</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2009</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/big 6.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Big Heros 6</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2014</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/extraction 2.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Extarction 2</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2023</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/famguy.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Family Guy</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">1999</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/deadpol.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Deadpool 2</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2016</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/lucy.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Lucy</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2014</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/amy.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Amy</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2015</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/action.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Back in Action</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2022</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container d-none d-md-block d-lg-none">
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/iron fist.webp" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;" class="img-fluid">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Iron fist</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2017</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/agent carter.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Agent Carter</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2015</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/vampire.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Vampire daires</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2009</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/big 6.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Big Heros 6</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2014</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gap-4 p-2 align-items-center justify-content-between">
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/famguy.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Family Guy</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">1999</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/deadpol.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Deadpool 2</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2016</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/lucy.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Lucy</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2014</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="background-color: #aaa; position: relative; height: 180px; border-radius: 20px;">
+                                <img src="assests/images/amy.jpg" alt="" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; object-fit: cover; background-position: center; background-size: cover; border-radius: 20px;">
+                                <div class="d-flex justify-content-between" style="position: absolute;bottom: 0; left: 0; right: 0;backdrop-filter: blur(8px); width: 100%; height: 40px; outline: none; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px; border-radius: 20px; padding: 4px 15px;  display: flex;flex-direction: column;justify-content: center;">
+                                    <a href="" style="text-decoration: none;"><p style="color: white; font-size: small !important;" class="h1 mb-0">Amy</p></a>
+                                    <div class=" d-flex  justify-content-between" style="margin-top: -5px;">
+                                        <p class="mb-0  " style="font-size: small; color: white; opacity: 0.4;">2015</p>
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-top: -15px;">
+                                            <i class="fa-solid fa-star fa-2xs" style="color: white;"></i><p style="font-size: small; color: white;" class="mb-0 px-1 ">4.1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="d-xl-flex ms-auto d-none my-2" style="width: 25%; background-color: rgb(78, 78, 78); display: flex;padding: 25px 8px; min-height: 100vh;">
+                    <div class="container">
+                        <div class="row" style="margin-bottom: -10px;">
+                            <div class="col">
+                                <p class="h5" style="color: white;">Genre</p>
+                            </div>
+                             <div class="col text-end" style="line-height: 30px; color: white; font-size: medium;">
+                                <p style="font-size: small;">More</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <a href="#" class="btn btn-dark btn-sm w-100 rounded-pill py-2">Crime</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#" class="btn btn-dark btn-sm w-100 rounded-pill py-2">History</a>
+                            </div>
+                        </div>
+                         <div class="row mb-3">
+                            <div class="col-6">
+                                <a href="#" class="btn btn-dark btn-sm w-100 rounded-pill py-2">Crime</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#" class="btn btn-dark btn-sm w-100 rounded-pill py-2">History</a>
+                            </div>
+                        </div>
+                         <div class="row mb-3">
+                            <div class="col-6">
+                                <a href="#" class="btn btn-dark btn-sm w-100 rounded-pill py-2">Crime</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#" class="btn btn-dark btn-sm w-100 rounded-pill py-2">History</a>
+                            </div>
+                        </div>
+                         <div class="row mb-3">
+                            <div class="col-6">
+                                <a href="#" class="btn btn-dark btn-sm w-100 rounded-pill py-2">Crime</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#" class="btn btn-dark btn-sm w-100 rounded-pill py-2">History</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <footer class="py-2" style="background-color: aqua;">    
+            <div class="container">
+                <h1>dcfgvhb</h1>
+            </div>
+        </footer>
+    </section>
+
+    <script src="assests/js/jquery.js"></script>
+    <script src="assests/js/bootstrap.bundle.js"></script>
+
+    <script>
+        const buttons = document.querySelectorAll('.movie-btn');
+
+        buttons.forEach(function (button) {
+            button.addEventListener('click', function (e) {
+                e.preventDefault();
+                buttons.forEach(btn => btn.classList.remove('white-bg'));
+                this.classList.add('white-bg');
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+        })
+    </script>
+</body>
+</html>
